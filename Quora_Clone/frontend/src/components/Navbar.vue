@@ -8,19 +8,19 @@
                     <li class="nav-item active">
                         <router-link 
                             :to="{ name: 'home' }" 
-                            class="btn btn-sm btn-primary"
+                            class="btn btn-sm btn-dark"
                         >Home
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link 
                             :to="{ name: 'question-editor' }" 
-                            class="btn btn-sm btn-primary mx-2"
+                            class="btn btn-sm btn-dark mx-2"
                         >Ask Question
                         </router-link>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-sm btn-outline-secondary" href="/accounts/logout">Logout</a>
+                        <a class="btn btn-sm btn-outline-danger" href="/accounts/logout/">Logout</a>
                     </li>
                 </ul>
             </div>
@@ -41,11 +41,11 @@ export default {
 
     .navbar-brand{
         font-weight: bold;
-        font-size: 130%;
+        font-size: 150%;
 
     }
 
     .navbar-brand:hover{
-        color: lightblue !important;
+        color: crimson !important;
     }
 </style>
