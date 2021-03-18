@@ -1,8 +1,5 @@
-from django.db.models import query
-from django.http import request
-from requests.api import delete
 from questions.models import Answer, Question
-from rest_framework import generics, serializers, status, viewsets
+from rest_framework import generics, status, viewsets
 from rest_framework.exceptions import ValidationError
 from rest_framework.generics import get_object_or_404
 from rest_framework.permissions import IsAuthenticated
